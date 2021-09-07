@@ -42,8 +42,9 @@
 
              $("#submit").click();
              $(".modal-header").shouldHave(text("Thanks for submitting the form"));
-             $(".table-responsive").shouldHave(text("Zhenia Zhenia"),text("Zhenia@gmail.com"),text ("Male"));
-             $("#submit").click();
+             $(".table-responsive").shouldHave(text("Zhenia Zhenia"),text("Zhenia@gmail.com"),text ("Male"),
+                     text("1212121212"),text("29 December,1989"),text("Maths"),text("Music, Reading"),text("1.png"),
+                     text("Maths"),text("Lenina 1"),text("Lenina 1"),text("NCR Noida") );
 
          }
 
